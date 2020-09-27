@@ -7,7 +7,7 @@ import com.example.swoosh.R
 import com.example.swoosh.utilities.EXTRA_PLAYER
 import kotlinx.android.synthetic.main.activity_finish.*
 
-class FinishActivity : AppCompatActivity() {
+class FinishActivity : BaseActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_finish)
